@@ -9,7 +9,6 @@
             "email": "curselby@hotmail.com"
         }
     ],
-    "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
             "Tp5Doc\\": "src/"
