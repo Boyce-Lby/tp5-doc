@@ -18,7 +18,6 @@ use think\Url;
 
 abstract class Doc
 {
-    use Send;
     public $titleDoc = '文档';
     /**
      * 字段类型
@@ -99,7 +98,7 @@ abstract class Doc
         if ($classDoc == false) {
             //输出 Markdown文档
             if (!isset($apiOne['readme']) || empty($apiOne['readme'])) {
-                return $this->sendError('', '没有接口');
+                return Response::create(['error'=>'','msg'=>'没有接口,没有markdown文档'], 'json');
             }
             $apiMarkdownHtmlPath = dirname(__FILE__) . DS . '..' . DS . 'tpl' . DS . 'apiMarkdown.tpl';
             $apiMarkdownHtmlPath = (Config::get('apiMarkdownHtmlPath')) ? Config::get('apiMarkdownHtmlPath') : $apiMarkdownHtmlPath;
