@@ -67,7 +67,7 @@ return [
     '3' => ['name' => '用户接口', 'id' => '3', 'parent' => '1', 'readme' => '','class'=>\app\test\controller\User::class],//User接口文档
 ];
 ```
-![wiki](./public/doc/images/wiki.png)
+![wiki](https://raw.githubusercontent.com/liushoukun/dawn-api-demo/master/public/doc/images/wiki.png)
 
 |参数|必须|备注|作用|
 |:---:|:---:|:---:|:---:|
@@ -105,7 +105,7 @@ class User extends Base{}
 |readme|false|markdown文档|可以编写信息文档|
 
 
-![ClassDoc](./public/doc/images/demo12.png)
+![ClassDoc](https://raw.githubusercontent.com/liushoukun/dawn-api-demo/master/public/doc/images/demo12.png)
 
 
 - 具体接口文档
@@ -165,7 +165,7 @@ class User extends Base{}
 ```
 
 
-![data](./public/doc/images/demo14.png)
+![data](https://raw.githubusercontent.com/liushoukun/dawn-api-demo/master/public/doc/images/demo14.png)
   
 
    3. 返回参数(注释填写)
@@ -199,12 +199,12 @@ class User extends Base{}
 'enum'      => '枚举类型',
 'object'    => '对象',
 ```
-![return](./public/doc/images/demo15.png)
+![return](https://raw.githubusercontent.com/liushoukun/dawn-api-demo/master/public/doc/images/demo15.png)
   
 整体效果
-![all](./public/doc/images/demo16.png)
-![all](./public/doc/images/demo17.png)
-![all](./public/doc/images/demo18.png)
+![all](https://raw.githubusercontent.com/liushoukun/dawn-api-demo/master/public/doc/images/demo16.png)
+![all](https://raw.githubusercontent.com/liushoukun/dawn-api-demo/master/public/doc/images/demo17.png)
+![all](https://raw.githubusercontent.com/liushoukun/dawn-api-demo/master/public/doc/images/demo18.png)
  
 
   
