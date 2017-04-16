@@ -1,0 +1,21 @@
+{
+    "name": "curselby/tp5-doc",
+    "type": "library",
+    "description": "A doc package require thinkphp5",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "curselby",
+            "email": "curselby@hotmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Tp5Doc\\": "src/"
+        }
+    },
+    "require": {
+        "topthink/framework": "^5.0"
+    }
+}
