@@ -26,7 +26,7 @@ composer require curselby/tp5-doc
 - 使用生成文档 需要在public/static/ 下 安装hadmin
 ```
 cd /public/static/
-git clone  https://git.oschina.net/curselby/hadmin.git
+git clone  https://github.com/curselby/hadmin.git
 ```
 
 ## 使用
